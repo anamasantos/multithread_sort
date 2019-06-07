@@ -15,9 +15,9 @@ pthread_t workers[2];
 
 
 typedef struct {
-	long int *vet_par;//recebe o valor que deve ser avaliado (primo ou não)
-	int inicio;
-	int final; 
+	long int *vet_par;//recebe o endereço do vetor que deve ser avaliado (primo ou não)
+	int inicio;//inice de inicio;
+	int final; //indice de final;
 } thread_args;
 
 
