@@ -138,7 +138,7 @@ int main() {
 	//chama função auxiliar que dividira o vetor e realizara o processamento em paralelo de cada metade do vetor
 	mergeSort_iter(x,entrada);
 
-	//mprimi o vetor ordenado;
+	//imprimi o vetor ordenado;
 	for (i=0;i<entrada;i++){
 		if(i!=entrada-1){
 			printf("%ld ",x[i]);
